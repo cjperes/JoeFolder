@@ -13,7 +13,7 @@ title JoeFolder - v.BBCREATIVE
 
 
 :: CONFERE SE EXISTE A PASTA MEU COMPUTADOR, SE EXISTIR ELE VAI PARA O DESBLOQUEIO
-:: SE A PASTA N√O EXISTIR ELE VAI PARA A CRIA«√O DA PASTA 
+:: SE A PASTA N√ÉO EXISTIR ELE VAI PARA A CRIA√á√ÉO DA PASTA 
 
 if EXIST "Meu computador.{20d04fe0-3aea-1069-a2d8-08002b30309d}" goto UNLOCK
 if NOT EXIST scripts goto MDLOCKER
@@ -44,7 +44,7 @@ goto End
 cls
 echo Senha para desbloquear:
 set /p "pass="
-if NOT %pass%== paodebatata goto FAIL
+if NOT %pass%== bbcreative goto FAIL
 ren "Meu computador.{20d04fe0-3aea-1069-a2d8-08002b30309d}" "scripts"
 cls
 color 2
